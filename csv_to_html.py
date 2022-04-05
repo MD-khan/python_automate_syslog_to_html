@@ -3,7 +3,8 @@ import sys
 import csv
 import os
 
-# This script is written by Google Developer
+# This script is written by Google Developer and it the part of course 
+# IT Auomation With Python
 # I just use it to convet csv file to html
 
 def process_csv(csv_file):
