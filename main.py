@@ -25,7 +25,6 @@ for line in lines:
             error_detais[result.group(2)] += 1
 
         if result.group(3) not in per_user.keys():  # result[3] - user name
-            per_user[result.group(3)] = {}
             per_user[result.group(3)]["INFO"] = 0
             per_user[result.group(3)]["ERROR"] = 0
 
